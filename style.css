@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('http://fonts.cdnfonts.com/css/lcd');
+@import url('http://fonts.cdnfonts.com/css/tbs'); 
+@import url('http://fonts.cdnfonts.com/css/mismo');
+body{
+    background-color: rgb(52, 52, 52);
+}
+.jumbotron{
+    background-color: rgb(0, 58, 58);
+    background-blend-mode: soft-light;
+    border: 10px solid #ffffff;
+    box-shadow: 9px -9px 128px -1px #00bbda;
+    width: 650px;
+    height: 300px;
+    margin: 140px auto;
+    padding: 17px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background: linear-gradient(180deg, rgb(0, 79, 80), rgb(14, 14, 14), rgb(0, 47, 48));
+    position: sticky;
+    height: 120px;  
+    width: 100vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    box-shadow: 1px -8px 12px 10px rgb(0, 0, 0);
+    border-radius: 0px 0 50% 50%;
+    color: white;
+    font-family: 'Mismo', sans-serif;    
+    -webkit-text-fill-color: rgb(255, 255, 255);                                    
+}
+.time-display{
+    font-size: 110px;
+    margin: auto;
+    text-shadow: 2px 1px 10px rgb(0, 255, 243);
+    font-family: 'LCDMono2', sans-serif;
+    border: 1px solid rgb(204, 255, 204);
+    height: 170px;
+    width: 600px;
+    background-color: rgb(0, 24, 26, 0.80);
+    border-radius: 30px;
+}
+
+
+.titlebar{
+    font-weight: bolder;
+}
+
+.dayteller{
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'TBS', sans-serif;
+    align-self: center;
+    display: flex;                                               
+}
+#day{
+    text-decoration: underline; 
+}
+hr{
+    margin: 50px auto;
+}
+
+@media only screen and (min-width: 435px) and (max-width: 600px) {
+    .time-display{
+        font-size: 60px;
+        margin: auto;
+        height: 150px;
+        width: 313px;
+        padding-top: 27px;
+    }
+    .jumbotron{
+        width: 406px;
+        height: 286px;
+        margin: 212px auto;
+    }
+    nav{
+        width: 100vw;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1440px) {
+    .jumbotron{
+        margin: 400px auto;
+    }
+    nav{
+        width: 100vw;
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 435px){
+    .time-display{
+        font-size: 43px;
+        margin: auto auto;
+        height: 90px;
+        width: 240px;
+        padding: 12px;
+        text-align: center;
+    }
+    .jumbotron{
+        width: 306px;
+        height: 230px;
+        margin: 260px auto;
+    }
+    nav{
+        width: 100vw;
+        font-size: 30px;
+    }
+    .dayteller{
+        font-size: 20px;
+    }
+}
