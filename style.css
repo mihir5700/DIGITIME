@@ -2,9 +2,150 @@
     margin: 0;
     padding: 0;
 }
-@import url('http://fonts.cdnfonts.com/css/lcd');
+/* @import url('http://fonts.cdnfonts.com/css/lcd');
 @import url('http://fonts.cdnfonts.com/css/tbs'); 
-@import url('http://fonts.cdnfonts.com/css/mismo');
+@import url('http://fonts.cdnfonts.com/css/mismo'); */
+@font-face {
+    font-family: 'TBS';
+    font-style: normal;
+    font-weight: 700;
+    src: local('TBS'), url('https://fonts.cdnfonts.com/s/79048/some_people_consider_me_to_be_veryfunny__by_629lyricd9fvs17_0.woff') format('woff');
+}
+
+
+
+@font-face {
+    font-family: 'LCD';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LCD'), url('https://fonts.cdnfonts.com/s/71639/LCD-N___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCD';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LCD'), url('https://fonts.cdnfonts.com/s/71639/LCD-U___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCD';
+    font-style: normal;
+    font-weight: 300;
+    src: local('LCD'), url('https://fonts.cdnfonts.com/s/71639/LCD-L___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCD';
+    font-style: normal;
+    font-weight: 700;
+    src: local('LCD'), url('https://fonts.cdnfonts.com/s/71639/LCD-BOLD.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCD2';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LCD2'), url('https://fonts.cdnfonts.com/s/71639/LCD2N___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCDMono2';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LCDMono2'), url('https://fonts.cdnfonts.com/s/71639/LCDM2N__.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCDMono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LCDMono'), url('https://fonts.cdnfonts.com/s/71639/LCDMN___.woff') format('woff');
+}
+@font-face {
+    font-family: 'Digitalism';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Digitalism'), url('https://fonts.cdnfonts.com/s/71639/digitalism.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCD2';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LCD2'), url('https://fonts.cdnfonts.com/s/71639/LCD2U___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCDMono2';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LCDMono2'), url('https://fonts.cdnfonts.com/s/71639/LCDM2U__.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCDMono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('LCDMono'), url('https://fonts.cdnfonts.com/s/71639/LCDMU___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCD2';
+    font-style: normal;
+    font-weight: 300;
+    src: local('LCD2'), url('https://fonts.cdnfonts.com/s/71639/LCD2L___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCDMono2';
+    font-style: normal;
+    font-weight: 300;
+    src: local('LCDMono2'), url('https://fonts.cdnfonts.com/s/71639/LCDM2L__.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCDMono';
+    font-style: normal;
+    font-weight: 300;
+    src: local('LCDMono'), url('https://fonts.cdnfonts.com/s/71639/LCDML___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCD2';
+    font-style: normal;
+    font-weight: 700;
+    src: local('LCD2'), url('https://fonts.cdnfonts.com/s/71639/LCD2B___.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCDMono2';
+    font-style: normal;
+    font-weight: 700;
+    src: local('LCDMono2'), url('https://fonts.cdnfonts.com/s/71639/LCDM2B__.woff') format('woff');
+}
+@font-face {
+    font-family: 'LCDMono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('LCDMono'), url('https://fonts.cdnfonts.com/s/71639/LCDMB___.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Mismo';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Mismo'), url('https://fonts.cdnfonts.com/s/31853/Mismo Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mismo';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Mismo'), url('https://fonts.cdnfonts.com/s/31853/Mismo Campus.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mismo';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Mismo'), url('https://fonts.cdnfonts.com/s/31853/Mismo Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Mismo';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Mismo'), url('https://fonts.cdnfonts.com/s/31853/Mismo Black.woff') format('woff');
+}
+
+
+
+
 body{
     background-color: rgb(52, 52, 52);
 }
