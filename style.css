@@ -236,8 +236,18 @@ hr{
 }
 
 @media only screen and (min-width: 721px) and (max-width: 1440px) {
+    .time-display{
+        font-size: 77px;
+        margin: auto auto;
+        height: 130px;
+        width: 440px;
+        padding: 8px;
+        text-align: center;
+    }
     .jumbotron{
-        margin: 400px auto;
+        width: 500px;
+        height: 310px;
+        margin: 115px auto 0px;
     }
     nav{
         width: 100vw;
@@ -245,7 +255,7 @@ hr{
     }
 }
 
-@media only screen and (max-width: 435px){
+@media only screen and (max-width: 435px) and (min-height: 453px){
     .time-display{
         font-size: 43px;
         margin: auto auto;
@@ -255,9 +265,9 @@ hr{
         text-align: center;
     }
     .jumbotron{
-        width: 306px;
-        height: 230px;
-        margin: 193px auto;
+        width: 300px;
+        height: 210px;
+        margin: 98px auto 0px;
     }
     nav{
         width: 100vw;
